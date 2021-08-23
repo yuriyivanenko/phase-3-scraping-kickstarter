@@ -37,8 +37,7 @@ These individual project hashes will be collected into a larger hash called
 
 In the directory of this project, you'll notice a folder called `fixtures`.
 Inside that folder, you'll see a file, `kickstarter.html`. If you are using the
-Learn IDE right click on the `kickstarter.html` file and select `Show in
-Finder`. Once Finder opens double click `kickstarter.html` to view the file
+Learn IDE right click on the `kickstarter.html` file and select `Show in Finder`. Once Finder opens double click `kickstarter.html` to view the file
 inside your default web browser. If you are not using the Learn IDE, try open
 `kickstarter.html` inside your text editor and right-click anywhere on the page
 to select `open in browser` from the menu that appears.
@@ -82,8 +81,8 @@ previous exercise in which we did use Open-URI.
 The first thing we'll want to do is figure out what selector will allow us to
 grab each project as a whole. Open up `fixtures/kickstarter.html` by typing:
 
-```bash
-open fixtures/kickstarter.html
+```console
+$ open fixtures/kickstarter.html
 ```
 
 in the terminal, or by right clicking on the file and selecting "open in browser".
@@ -162,7 +161,7 @@ escape the scrolling and go back to entering code in Pry by hitting "q".
 **Top-Tip:** The `variable_name = _` syntax used in Pry will assign the
 `variable` name to the return value of whatever was executed above. For example:
 
-```bash
+```console
 $ pry > 1 + 1
   => 2
 $ pry > two = _
@@ -377,5 +376,3 @@ end
 
 We did it! Run the test suite and you should see that all of the tests are
 passing.
-
-
